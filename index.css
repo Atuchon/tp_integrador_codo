@@ -36,14 +36,14 @@
           position: absolute;
           width: 70%;
           top: 50%;
-          right: 10%;
+          
         transform: translate(0%, -50%); 
           color: azure;
           padding: 10px;
           text-align: end;
         }
         .card {
-          width: 35rem;
+          width: 30rem;
           margin: auto;
         }
         .p_oct {
@@ -56,7 +56,7 @@
           align-items: center;
         }
         .col-6 {
-          width: 35rem;
+          width: 30rem;
         }
 
       }
@@ -76,7 +76,7 @@
             font-size: xx-small;
           }
           .card {
-            width: 28rem;
+            width: 25rem;
             margin: auto;
           }
           .row{
@@ -84,7 +84,13 @@
             align-items: center;
           }
           .col-6 {
-            width: 28rem;
+            width: 25rem;
+            
+          }
+          .ul-foot{
+            flex-wrap: wrap;
+            justify-content: space-around;
+            font-size: small;
           }
       }
   @media (max-width: 400px) {
@@ -112,6 +118,10 @@
     }
     .col-6 {
       width: 20rem;
+    }
+    .ul-foot{
+      flex-wrap: wrap;
+      justify-content: space-around;
     }
   }
   @media (max-width: 300px) {
@@ -148,7 +158,11 @@
       font-size: small;
     }
     .form-control{
-      font-size: small;
+      font-size: xsmall;
+    }
+    .ul-foot{
+      flex-wrap: wrap;
+      justify-content: space-around;
     }
   }
  
