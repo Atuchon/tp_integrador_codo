@@ -17,7 +17,6 @@
 
       .parrafo-contenedor {
         max-height:300px; /* Ajusta la altura máxima del contenedor */
-        overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
         padding: 10px;
       }
 
